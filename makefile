@@ -8,7 +8,7 @@ LINKFLAGS += -L/Users/eitak/Dropbox/School/graphics/vecmath -lvecmath
 #CFLAGS    = -O2 -Wall -ansi #optimized compiler commands
 CFLAGS    = -g -Wall -Wextra -Wno-unused -ansi -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC #debugging compiler commands
 CC        = g++ 
-SRCS      = integrator.cpp particleSystem.cpp simpleSystem.cpp camera.cpp main.cpp spring.cpp
+SRCS      = integrator.cpp particleSystem.cpp simpleSystem.cpp camera.cpp main.cpp 
 OBJS      = $(SRCS:.cpp=.o)
 PROG      = a3
 

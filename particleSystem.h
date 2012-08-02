@@ -19,6 +19,12 @@ public:
     
 };
 
+class PositionFinder{
+public: 
+    static Vector3f getPosition(const vector<Vector3f> &state, int index);
+    static Vector3f getVelocity(const vector<Vector3f> &state, int index);
+    
+};
 
 class ParticleSystem{
 public:

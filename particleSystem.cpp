@@ -63,3 +63,11 @@ ControlParticle::ControlParticle(Vector3f pos, Vector3f vel, float inf) {
     this->velocity = vel;
     this->influenceRadius = inf;
 }
+
+Vector3f PositionFinder::getPosition(const vector<Vector3f> &state, int index) {
+    return state[2*index];
+}
+
+Vector3f PositionFinder::getVelocity(const vector<Vector3f> &state, int index) {
+    return state[2*index+1];
+}

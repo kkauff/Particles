@@ -11,8 +11,6 @@
       <in>particleSystem.h</in>
       <in>simpleSystem.cpp</in>
       <in>simpleSystem.h</in>
-      <in>spring.cpp</in>
-      <in>spring.h</in>
     </df>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

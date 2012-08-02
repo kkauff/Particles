@@ -1,6 +1,5 @@
 #include <iostream>
 #include "integrator.h"
-#include "pendulumSystem.h"
 #include <assert.h>
 
 #include <sys/types.h>

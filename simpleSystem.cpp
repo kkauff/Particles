@@ -2,7 +2,6 @@
 #include <algorithm>
 
 #include "simpleSystem.h"
-#include "spring.h"
 #include "particleSystem.h"
 
 #include <sys/types.h>
